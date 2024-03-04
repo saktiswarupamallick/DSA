@@ -1,5 +1,5 @@
 function selection_sort(){
-
+ for
 }
 
 function min_element(arr,i){
