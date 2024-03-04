@@ -9,4 +9,5 @@ function min_element(arr,i){
             min_element =j
         }
     }
+    return min_element;
 }
