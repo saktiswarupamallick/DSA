@@ -1,4 +1,4 @@
-function selectionsort(){
+function selection_sort(){
 
 }
 
