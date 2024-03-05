@@ -1,6 +1,12 @@
-function selection_sort(int[] arr,int i){
- for(let i =0; i < arr.length ;i++){
-    
+function selection_sort(arr){
+ for(let i =0; i < arr.length;i++){
+    let minelement = min_element(arr,i)
+    if(minelement != arr[i]){
+        let temp = arr[i];
+        arr[i] = arr[min_element];
+        arr[min_element]= temp;
+
+    }
  }
 }
 
