@@ -1,5 +1,7 @@
-function selection_sort(){
- for
+function selection_sort(int[] arr,int i){
+ for(let i =0; i < arr.length ;i++){
+    
+ }
 }
 
 function min_element(arr,i){
